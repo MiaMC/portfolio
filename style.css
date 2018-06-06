@@ -1,0 +1,81 @@
+
+html{
+  height: 100%;
+  background-image:url("https://i.pinimg.com/736x/e8/66/73/e8667349babb3f44ac370273175bfad6--creepy-pasta-stories-creepy-stuff.jpg");
+  background-size: cover;
+}
+
+#banner{
+  padding-top: 22%;
+  font-family:'Pacifico', cursive;
+  font-size:35px;
+  display:flex;
+  justify-content: center;
+  color:#9370DB;
+}
+#heading{
+  height:100%;
+  font-family:'Pangolin', cursive;
+  display:flex;
+  justify-content:space-around;
+  color:#0066CC;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /*full width*/
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family: 'Pangolin',Sans-serif;
+}
+
+ .navbar a:hover {
+    color: silver;
+    background: #9370DB;
+   }
+  #about-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top:22%;
+    }
+   
+   img {
+     border-radius:50%;
+     border: solid 5px #9370DB;
+    }
+   
+   .my-description {
+     background: white;
+     margin: 3%;
+     padding:4%;
+     font-family: 'Pacifico', sans-serif;
+    }
+  
+   .project-container{
+     margin-top: 20%;
+     display:flex;
+     width:100%;
+     height:100%;
+     justify-content: space-between;
+   }
+      span{
+       background:#9370DB;
+       width:30%;
+       height:60%;
+       margin:2%;
+       padding:2%;
+       font-family:'Pacifico';
+       color: white;
+       align-items: center;
+       }
